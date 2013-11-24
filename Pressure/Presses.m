@@ -42,6 +42,14 @@ void pressKey(int key) {
 void launch(NSString *s) {
     [[NSWorkspace sharedWorkspace] launchApplication:s];
 }
+void launchById(NSString *s) {
+    @autoreleasepool {
+        NSTask *task = [[NSTask alloc] init];
+        [task setLaunchPath:@"/usr/bin/open"];
+        [task setArguments:@[ @"-b", @"com.apple.exposelauncher" ]];
+        [task launch];
+    }
+}
 
 void pressKeySoundUp() {
 	pressKey(NX_KEYTYPE_SOUND_UP); }
@@ -109,11 +117,11 @@ void pressKeyIlluminationDown() {
 void pressKeyIlluminationToggle() {
 	pressKey(NX_KEYTYPE_ILLUMINATION_TOGGLE); }
 void launchMissionControl() {
-    launch(@"Mission Control"); }
+    launchById(@"com.apple.exposelauncher"); }
 void launchDashBoard() {
-    launch(@"Dashboard"); }
+    launchById(@"com.apple.dashboardlauncher"); }
 void launchLaunchPad() {
-    launch(@"Launchpad"); }
+    launchById(@"com.apple.launchpad.launcher"); }
 
 
 

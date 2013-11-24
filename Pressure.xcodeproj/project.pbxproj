@@ -69,7 +69,6 @@
 		E4090B991842231000450035 /* PressureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PressureTests.m; sourceTree = "<group>"; };
 		E4090BAB1842444F00450035 /* Presses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presses.h; sourceTree = "<group>"; };
 		E4090BAC1842444F00450035 /* Presses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presses.m; sourceTree = "<group>"; };
-		E4090BC2184263B600450035 /* faces.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = faces.icns; sourceTree = "<group>"; };
 		E4090BDC18427D4F00450035 /* Doge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doge.png; sourceTree = "<group>"; };
 		E4090BDE18427D8E00450035 /* doge.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = doge.icns; sourceTree = "<group>"; };
 		E4FDD4F11842857D00AB205C /* AppDashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppDashboard.png; sourceTree = "<group>"; };
@@ -115,7 +114,6 @@
 		E4090B631842230F00450035 = {
 			isa = PBXGroup;
 			children = (
-				E4090BC2184263B600450035 /* faces.icns */,
 				E4090BDE18427D8E00450035 /* doge.icns */,
 				E4090B751842231000450035 /* Pressure */,
 				E4090B931842231000450035 /* PressureTests */,

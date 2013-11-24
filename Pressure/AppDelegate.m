@@ -13,7 +13,11 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)notification
 {
-    // Insert code here to initialize your application
+    // empty
+}
+
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
+    return YES;
 }
 
 - (IBAction)pressKeySoundUp:(id)sender {
