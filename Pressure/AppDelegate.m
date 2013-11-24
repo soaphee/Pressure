@@ -65,9 +65,9 @@
 - (IBAction)pressKeyIlluminationToggle:(id)sender {
     pressKeyIlluminationToggle(); }
 - (IBAction)launchMissionControl:(id)sender{
-    launchMissionControl(); }
+    launchExpose(); }
 - (IBAction)launchDashBoard:(id)sender{
-    launchDashBoard(); }
+    launchDashboard(); }
 - (IBAction)launchLaunchPad:(id)sender{
-    launchLaunchPad(); }
+    launchLaunchpad(); }
 @end

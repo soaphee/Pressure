@@ -39,14 +39,15 @@ void pressKey(int key) {
 //    usleep(10000);
 }
 
-void launch(NSString *s) {
-    [[NSWorkspace sharedWorkspace] launchApplication:s];
-}
+//void launch(NSString *s) {
+//    [[NSWorkspace sharedWorkspace] launchApplication:s];
+//}
+
 void launchById(NSString *s) {
     @autoreleasepool {
         NSTask *task = [[NSTask alloc] init];
         [task setLaunchPath:@"/usr/bin/open"];
-        [task setArguments:@[ @"-b", @"com.apple.exposelauncher" ]];
+        [task setArguments:@[ @"-b", s ]];
         [task launch];
     }
 }
@@ -116,19 +117,18 @@ void pressKeyIlluminationDown() {
 	pressKey(NX_KEYTYPE_ILLUMINATION_DOWN); }
 void pressKeyIlluminationToggle() {
 	pressKey(NX_KEYTYPE_ILLUMINATION_TOGGLE); }
-void launchMissionControl() {
+void launchExpose() {
     launchById(@"com.apple.exposelauncher"); }
-void launchDashBoard() {
+void launchDashboard() {
     launchById(@"com.apple.dashboardlauncher"); }
-void launchLaunchPad() {
+void launchLaunchpad() {
     launchById(@"com.apple.launchpad.launcher"); }
 
 
-
-int testPresses(int argc, const char * argv[])
-{
-    pressKeyMute();
-    return 0;
-}
+//int testPresses(int argc, const char * argv[])
+//{
+//    pressKeyMute();
+//    return 0;
+//}
 
 
