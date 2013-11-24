@@ -12,13 +12,12 @@
 		E4090B7A1842231000450035 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4090B781842231000450035 /* InfoPlist.strings */; };
 		E4090B801842231000450035 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E4090B7E1842231000450035 /* Credits.rtf */; };
 		E4090B831842231000450035 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4090B821842231000450035 /* AppDelegate.m */; };
-		E4090B881842231000450035 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4090B871842231000450035 /* Images.xcassets */; };
 		E4090B8F1842231000450035 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4090B8E1842231000450035 /* XCTest.framework */; };
 		E4090B901842231000450035 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4090B6F1842231000450035 /* Cocoa.framework */; };
 		E4090B981842231000450035 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4090B961842231000450035 /* InfoPlist.strings */; };
 		E4090B9A1842231000450035 /* PressureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4090B991842231000450035 /* PressureTests.m */; };
 		E4090BAD1842444F00450035 /* Presses.m in Sources */ = {isa = PBXBuildFile; fileRef = E4090BAC1842444F00450035 /* Presses.m */; };
-		E4090BDF18427D8E00450035 /* doge.icns in Resources */ = {isa = PBXBuildFile; fileRef = E4090BDE18427D8E00450035 /* doge.icns */; };
+		E4090BDF18427D8E00450035 /* Doge.icns in Resources */ = {isa = PBXBuildFile; fileRef = E4090BDE18427D8E00450035 /* Doge.icns */; };
 		E4FDD5121842865900AB205C /* AppDashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FDD4F11842857D00AB205C /* AppDashboard.png */; };
 		E4FDD5131842865900AB205C /* AppExpose.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FDD4F21842857D00AB205C /* AppExpose.png */; };
 		E4FDD5141842865900AB205C /* AppLaunchpad.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FDD4F31842857D00AB205C /* AppLaunchpad.png */; };
@@ -61,7 +60,6 @@
 		E4090B811842231000450035 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4090B821842231000450035 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E4090B851842231000450035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		E4090B871842231000450035 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E4090B8D1842231000450035 /* PressureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PressureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4090B8E1842231000450035 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E4090B951842231000450035 /* PressureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PressureTests-Info.plist"; sourceTree = "<group>"; };
@@ -70,7 +68,7 @@
 		E4090BAB1842444F00450035 /* Presses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presses.h; sourceTree = "<group>"; };
 		E4090BAC1842444F00450035 /* Presses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presses.m; sourceTree = "<group>"; };
 		E4090BDC18427D4F00450035 /* Doge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doge.png; sourceTree = "<group>"; };
-		E4090BDE18427D8E00450035 /* doge.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = doge.icns; sourceTree = "<group>"; };
+		E4090BDE18427D8E00450035 /* Doge.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Doge.icns; path = Pressure/Doge.icns; sourceTree = "<group>"; };
 		E4FDD4F11842857D00AB205C /* AppDashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppDashboard.png; sourceTree = "<group>"; };
 		E4FDD4F21842857D00AB205C /* AppExpose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppExpose.png; sourceTree = "<group>"; };
 		E4FDD4F31842857D00AB205C /* AppLaunchpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppLaunchpad.png; sourceTree = "<group>"; };
@@ -114,7 +112,7 @@
 		E4090B631842230F00450035 = {
 			isa = PBXGroup;
 			children = (
-				E4090BDE18427D8E00450035 /* doge.icns */,
+				E4090BDE18427D8E00450035 /* Doge.icns */,
 				E4090B751842231000450035 /* Pressure */,
 				E4090B931842231000450035 /* PressureTests */,
 				E4090B6E1842231000450035 /* Frameworks */,
@@ -155,18 +153,18 @@
 		E4090B751842231000450035 /* Pressure */ = {
 			isa = PBXGroup;
 			children = (
+				E4090B841842231000450035 /* MainMenu.xib */,
 				E4090B811842231000450035 /* AppDelegate.h */,
 				E4090B821842231000450035 /* AppDelegate.m */,
-				E4090B841842231000450035 /* MainMenu.xib */,
 				E4090BAB1842444F00450035 /* Presses.h */,
 				E4090BAC1842444F00450035 /* Presses.m */,
-				E4090B871842231000450035 /* Images.xcassets */,
-				E4090B761842231000450035 /* Supporting Files */,
+				E4FDD511184285B300AB205C /* Images */,
+				E4090B761842231000450035 /* Resources */,
 			);
 			path = Pressure;
 			sourceTree = "<group>";
 		};
-		E4090B761842231000450035 /* Supporting Files */ = {
+		E4090B761842231000450035 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				E4FDD5221842869300AB205C /* main.m */,
@@ -175,9 +173,8 @@
 				E4090B7E1842231000450035 /* Credits.rtf */,
 				E4090B781842231000450035 /* InfoPlist.strings */,
 				E4090BDC18427D4F00450035 /* Doge.png */,
-				E4FDD511184285B300AB205C /* glyphs */,
 			);
-			name = "Supporting Files";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		E4090B931842231000450035 /* PressureTests */ = {
@@ -198,7 +195,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E4FDD511184285B300AB205C /* glyphs */ = {
+		E4FDD511184285B300AB205C /* Images */ = {
 			isa = PBXGroup;
 			children = (
 				E4FDD4F11842857D00AB205C /* AppDashboard.png */,
@@ -218,8 +215,8 @@
 				E4FDD4FF1842857E00AB205C /* VolumeOff.png */,
 				E4FDD5001842857E00AB205C /* VolumeUp.png */,
 			);
-			name = glyphs;
-			path = ..;
+			name = Images;
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,9 +297,8 @@
 			files = (
 				E4090B7A1842231000450035 /* InfoPlist.strings in Resources */,
 				14FE9FA4184288CF00B9404E /* MainMenu.xib in Resources */,
-				E4090B881842231000450035 /* Images.xcassets in Resources */,
 				E4090B801842231000450035 /* Credits.rtf in Resources */,
-				E4090BDF18427D8E00450035 /* doge.icns in Resources */,
+				E4090BDF18427D8E00450035 /* Doge.icns in Resources */,
 				E4FDD5121842865900AB205C /* AppDashboard.png in Resources */,
 				E4FDD5131842865900AB205C /* AppExpose.png in Resources */,
 				E4FDD5141842865900AB205C /* AppLaunchpad.png in Resources */,

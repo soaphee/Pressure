@@ -80,14 +80,14 @@
         <window title="Pressure" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="342" y="301" width="596" height="183"/>
+            <rect key="contentRect" x="342" y="301" width="734" height="183"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1280" height="778"/>
             <view key="contentView" id="372">
-                <rect key="frame" x="0.0" y="0.0" width="596" height="183"/>
+                <rect key="frame" x="0.0" y="0.0" width="734" height="183"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button toolTip="Launchpad (T)" id="jDm-rl-80M">
-                        <rect key="frame" x="243" y="95" width="48" height="48"/>
+                        <rect key="frame" x="238" y="97" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Launchpad (T)" bezelStyle="shadowlessSquare" image="AppLaunchpad" imagePosition="below" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="0zN-pB-ytz">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -99,7 +99,7 @@
                         </connections>
                     </button>
                     <button toolTip="Increase Brightness (E)" id="fOL-dl-iIi">
-                        <rect key="frame" x="152" y="95" width="48" height="48"/>
+                        <rect key="frame" x="144" y="97" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Increase Brightness (E)" bezelStyle="shadowlessSquare" image="BrightnessUp" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="I8X-Cp-2rh">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -111,7 +111,7 @@
                         </connections>
                     </button>
                     <button toolTip="Decrease Brightness (W)" id="Pow-5f-Rci">
-                        <rect key="frame" x="94" y="95" width="48" height="48"/>
+                        <rect key="frame" x="86" y="97" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Decrease Brightness (W)" bezelStyle="shadowlessSquare" image="BrightnessDown" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="V5T-S6-62I">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -123,7 +123,7 @@
                         </connections>
                     </button>
                     <button toolTip="Turn Off Brightness (Q)" id="zyW-rc-Hcs">
-                        <rect key="frame" x="36" y="95" width="48" height="48"/>
+                        <rect key="frame" x="28" y="97" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Turn Off Brightness (Q)" bezelStyle="shadowlessSquare" image="BrightnessOff" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="r1M-fU-6cL">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -135,7 +135,7 @@
                         </connections>
                     </button>
                     <button toolTip="Turn Off Keyboard Backlight (A)" id="R2n-BO-jV7">
-                        <rect key="frame" x="36" y="35" width="48" height="48"/>
+                        <rect key="frame" x="28" y="37" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="KBrightOff" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="LSe-3P-xh4">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -147,7 +147,7 @@
                         </connections>
                     </button>
                     <button toolTip="Increase Keyboard Backlight (D)" id="WZQ-Pk-NfQ">
-                        <rect key="frame" x="152" y="35" width="48" height="48"/>
+                        <rect key="frame" x="144" y="37" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Increase Keyboard Backlight (D)" bezelStyle="shadowlessSquare" image="KBrightUp" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="ebe-vj-sV3">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -159,7 +159,7 @@
                         </connections>
                     </button>
                     <button toolTip="Decrease Keyboard Backlight (S)" id="NIB-0j-zin">
-                        <rect key="frame" x="94" y="35" width="48" height="48"/>
+                        <rect key="frame" x="86" y="37" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Decrease Keyboard Backlight (S)" bezelStyle="shadowlessSquare" image="KBrightDown" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="0zx-hP-qBy">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -171,7 +171,7 @@
                         </connections>
                     </button>
                     <button toolTip="Previous Track (I)" id="yaB-Nz-lgf">
-                        <rect key="frame" x="395" y="95" width="48" height="48"/>
+                        <rect key="frame" x="387" y="97" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Previous Track (I)" bezelStyle="shadowlessSquare" image="MediaPrev" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="gsU-RY-FBt">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -183,7 +183,7 @@
                         </connections>
                     </button>
                     <button toolTip="Play/Pause (O)" id="1vs-vR-Aab">
-                        <rect key="frame" x="453" y="95" width="48" height="48"/>
+                        <rect key="frame" x="445" y="97" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Play/Pause (O)" bezelStyle="shadowlessSquare" image="MediaPlay" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="cCd-GE-RgH">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -195,7 +195,7 @@
                         </connections>
                     </button>
                     <button toolTip="Mute (J)" id="0wc-Sl-WIo">
-                        <rect key="frame" x="395" y="35" width="48" height="48"/>
+                        <rect key="frame" x="387" y="37" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Mute (J)" bezelStyle="shadowlessSquare" image="VolumeOff" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="izJ-aM-hco">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -207,7 +207,7 @@
                         </connections>
                     </button>
                     <button toolTip="Eject (H)" id="HRE-Mg-qAp">
-                        <rect key="frame" x="301" y="35" width="48" height="48"/>
+                        <rect key="frame" x="296" y="37" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Eject (H)" bezelStyle="shadowlessSquare" image="Eject" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="BI1-DU-3LB">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -219,7 +219,7 @@
                         </connections>
                     </button>
                     <button toolTip="Next Track (P)" id="f2f-G3-h4J">
-                        <rect key="frame" x="511" y="95" width="48" height="48"/>
+                        <rect key="frame" x="503" y="97" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Next Track (P)" bezelStyle="shadowlessSquare" image="MediaNext" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="udB-zd-gbI">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -231,7 +231,7 @@
                         </connections>
                     </button>
                     <button toolTip="Increase Volume (L)" id="IJO-AJ-waU">
-                        <rect key="frame" x="511" y="35" width="48" height="48"/>
+                        <rect key="frame" x="503" y="37" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Increase Volume (L)" bezelStyle="shadowlessSquare" image="VolumeUp" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="MDm-dM-sey">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -243,7 +243,7 @@
                         </connections>
                     </button>
                     <button toolTip="Decrease Volume (K)" id="UyX-0C-PhT">
-                        <rect key="frame" x="453" y="35" width="48" height="48"/>
+                        <rect key="frame" x="445" y="37" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Decrease Volume (K)" bezelStyle="shadowlessSquare" image="VolumeDown" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="aan-u8-MVe">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -255,7 +255,7 @@
                         </connections>
                     </button>
                     <button toolTip="Mission Control (G)" id="alr-nC-JRK">
-                        <rect key="frame" x="243" y="35" width="48" height="48"/>
+                        <rect key="frame" x="238" y="37" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Mission Control (G)" bezelStyle="shadowlessSquare" image="AppExpose" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9FT-iq-fg1">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -267,7 +267,7 @@
                         </connections>
                     </button>
                     <button toolTip="Dashboard (Y)" id="JQd-uv-ho2">
-                        <rect key="frame" x="301" y="95" width="48" height="48"/>
+                        <rect key="frame" x="296" y="97" width="48" height="48"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="square" alternateTitle="Dashboard (Y)" bezelStyle="shadowlessSquare" image="AppDashboard" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SYU-vs-gxC">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -278,6 +278,14 @@
                             <action selector="launchDashBoard:" target="494" id="m2S-Dd-hdn"/>
                         </connections>
                     </button>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" id="MhV-Pz-BtA">
+                        <rect key="frame" x="589" y="37" width="106" height="108"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <string key="toolTip">Such keypress. Very Mac.
+
+Wow.</string>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="right" imageScaling="proportionallyDown" image="Doge" id="tix-yd-XYs"/>
+                    </imageView>
                 </subviews>
             </view>
         </window>
@@ -295,6 +303,7 @@
         <image name="BrightnessDown" width="135.5294189453125" height="135.5294189453125"/>
         <image name="BrightnessOff" width="135.5294189453125" height="135.5294189453125"/>
         <image name="BrightnessUp" width="135.5294189453125" height="135.5294189453125"/>
+        <image name="Doge" width="128" height="128"/>
         <image name="Eject" width="135.5294189453125" height="135.5294189453125"/>
         <image name="KBrightDown" width="135.5294189453125" height="135.5294189453125"/>
         <image name="KBrightOff" width="135.5294189453125" height="135.5294189453125"/>
